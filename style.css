@@ -46,3 +46,7 @@ form label {
     box-shadow: 6px 6px 0px rgb(219, 149, 161);
     color: white;
 }
+
+.hidden {
+    display: none;
+}
