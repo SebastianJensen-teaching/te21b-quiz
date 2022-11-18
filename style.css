@@ -2,17 +2,24 @@ body {
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
+    color: darkslategray
 }
 
 form {
-    background-color: white;
+    position: relative;
+    background-color: lightcyan;
     width: 70%;
     margin: auto;
     padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 100px;
+    box-shadow: 6px 6px 0px rgb(219, 149, 161);
 }
 
 form .question {
     font-size: 30px;
+    font-weight: bolder;
+    margin: 40px 0px;
 }
 
 form .answers {
@@ -24,4 +31,18 @@ form label {
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 10px;
+}
+
+.send-button {
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    box-shadow: 6px 6px 0px rgb(219, 149, 161);
+    color: white;
 }
